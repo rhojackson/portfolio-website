@@ -1,4 +1,5 @@
-var portfolioPreview = ["images/portfolio/banner_ads.png",
+var portfolioPreview = ["images/portfolio/brookview_brochure_mockup.png",
+    "images/portfolio/hospitality_infographic.png",
     "images/portfolio/market_report_2016.jpg",
     "images/portfolio/sponsorship_booklet.png",
     "images/portfolio/business_cards.png",
@@ -6,9 +7,8 @@ var portfolioPreview = ["images/portfolio/banner_ads.png",
     "images/portfolio/icons.png",
     "images/portfolio/soaker_package1.png",
     "images/portfolio/el_redesign.png",
-    "images/portfolio/pa.png",
-    "images/portfolio/brookview_brochure_mockup.png",
-    "images/portfolio/hospitality_infographic.png"
+    "images/portfolio/pa.png","images/portfolio/banner_ads.png"
+    
     
 ];
 
@@ -116,7 +116,7 @@ $(function() {
     }
 
      for(bbPagesLeft = 2; bbPagesLeft < 5; bbPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/bb/bb_"+paPagesLeft+".png' data-lightbox='image99' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/bb/bb_"+bbPagesLeft+".png' data-lightbox='image99' </a>")
     }
   /*  $(function() {
         // Init Controller
