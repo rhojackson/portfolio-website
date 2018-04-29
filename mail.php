@@ -10,7 +10,7 @@ $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $gRecaptchaResponse = $_POST['g-recaptcha-response']; //google captcha post data
 $remoteIp = $_SERVER['REMOTE_ADDR']; //to get user's ip
 
-$recaptchaErrors = 'Try Again'; // blank varible to store error
+$recaptchaErrors = ''; // blank varible to store error
 
 $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp); //method to verify captcha
 if ($resp->isSuccess()) {
@@ -27,6 +27,7 @@ if ($resp->isSuccess()) {
 
 	 else {
    $recaptchaErrors = $resp->getErrorCodes(); // set the error in varible
+   window.alert("Beep. Boop. Are you a robot?");
 }
 
 
