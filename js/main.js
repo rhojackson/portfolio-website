@@ -7,7 +7,8 @@ var portfolioPreview = ["images/portfolio/banner_ads.png",
     "images/portfolio/soaker_package1.png",
     "images/portfolio/el_redesign.png",
     "images/portfolio/pa.png",
-    "images/portfolio/brookview_brochure_mockup.png"
+    "images/portfolio/brookview_brochure_mockup.png",
+    "images/portfolio/hospitality_infographic.png"
     
 ];
 
