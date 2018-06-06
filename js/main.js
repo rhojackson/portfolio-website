@@ -92,31 +92,31 @@ $(function() {
     }
 
     for(mrPagesLeft = 2; mrPagesLeft < 25; mrPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/mr/mr"+mrPagesLeft+".jpg' data-lightbox='image11' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/mr/mr"+mrPagesLeft+".jpg' data-lightbox='image22' </a>")
     }
 
     for(iconPagesLeft = 2; iconPagesLeft < 7; iconPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/icons/icon_"+iconPagesLeft+".png' data-lightbox='image55' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/icons/icon_"+iconPagesLeft+".png' data-lightbox='image66' </a>")
     }
 
     for(colPagesLeft = 2; colPagesLeft < 45; colPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/col/col_Page_"+colPagesLeft+".jpg' data-lightbox='image44' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/col/col_Page_"+colPagesLeft+".jpg' data-lightbox='image55' </a>")
     }
 
       for(sponPagesLeft = 2; sponPagesLeft < 6; sponPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/spon/spon"+sponPagesLeft+".png' data-lightbox='image22' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/spon/spon"+sponPagesLeft+".png' data-lightbox='image33' </a>")
     }
 
       for(logoPagesLeft = 2; logoPagesLeft < 3; logoPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/el/el_redesign_"+logoPagesLeft+".png' data-lightbox='image77' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/el/el_redesign_"+logoPagesLeft+".png' data-lightbox='image88' </a>")
     }
 
       for(paPagesLeft = 2; paPagesLeft < 4; paPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/pa/pa_"+paPagesLeft+".png' data-lightbox='image88' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/pa/pa_"+paPagesLeft+".png' data-lightbox='image99' </a>")
     }
 
      for(bbPagesLeft = 2; bbPagesLeft < 5; bbPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/bb/bb_"+bbPagesLeft+".png' data-lightbox='image99' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/bb/bb_"+bbPagesLeft+".png' data-lightbox='image00' </a>")
     }
   /*  $(function() {
         // Init Controller
