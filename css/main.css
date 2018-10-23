@@ -14,7 +14,7 @@ general styles
 h1{
 	font-family: 'Playfair Display', serif;
 	font-weight: 400;
-	color: white;
+	color: rgb(54,26,47);
 	letter-spacing: .09em;
 	text-align: center;
 }
@@ -48,6 +48,10 @@ Heading & Nav
 	margin-bottom: 100px;
 }
 
+#home h1{
+	text-align: left;
+}
+
 .brandImg {
 	width: 25%;
 	text-align: center;
@@ -74,7 +78,7 @@ Heading & Nav
 .hero{
 	padding-top: 50px;
 	padding-bottom: 100px;
-	background: url(../images/pexels-photo_blur.jpg) no-repeat center center;
+	background: url(../images/home-page.jpg) no-repeat center center;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -103,7 +107,7 @@ Heading & Nav
 }
 
 .lead {
-	color: white;
+	color: rgb(54,26,47);
 }
 
 .whiteCircleBackground{
@@ -132,6 +136,10 @@ Portfolio
 .heroPort{
 	padding-top: 50px;
 	padding-bottom: 0px;
+}
+
+h1#portTitle{
+	text-align: center;
 }
 
 #portfolio{
@@ -216,7 +224,7 @@ About Me
 
 .headshot {
 	width: 100%;
-	border-radius: 8px;
+	border-radius: 3px;
 }
 
 #aboutMe span{
@@ -477,16 +485,30 @@ media queries
 	.hero{
 		padding-bottom: 20px;
 		padding-top: 70px;
+		background: url(../images/home-page.jpg) no-repeat right top;
 	}
 
 	.greeting{
 		margin-top: 60px;
 		text-shadow: 3px 3px 5px rgba(150, 150, 150, 1);
+		text-align: center;
 	}
 
+	#home h1{
+		text-align: center;
+	}
+
+	.heroCircleImg{
+		text-align: center;
+
+	}
 
 	.resumeImg{
 		width: 50%;
+	}
+
+	#resumeBtn{
+		margin-top: 15px;
 	}
 	
 	nav .whiteCircleBackground{
