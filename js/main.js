@@ -1,15 +1,15 @@
 var portfolioPreview = ["images/portfolio/kismet_album.png",
     "images/portfolio/kismet_mockup.png",
     "images/portfolio/brookview_brochure_mockup.png",
-    "images/portfolio/hospitality_infographic.png",
-    "images/portfolio/market_report_2016.jpg",
     "images/portfolio/sponsorship_booklet.png",
-    "images/portfolio/business_cards.png",
     "images/portfolio/collections_mag_fall2015.jpg",
+    "images/portfolio/market_report_2016.jpg",
+    "images/portfolio/hospitality_infographic.png",
+    "images/portfolio/business_cards.png",
     "images/portfolio/icons.png",
-    "images/portfolio/soaker_package1.png",
     "images/portfolio/el_redesign.png",
-    "images/portfolio/pa.png","images/portfolio/banner_ads.png"
+    "images/portfolio/pa.png",
+    "images/portfolio/banner_ads.png"
     
     
 ];
@@ -98,7 +98,7 @@ $(function() {
     }
 
     for(mrPagesLeft = 2; mrPagesLeft < 25; mrPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/mr/mr"+mrPagesLeft+".jpg' data-lightbox='image44' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/mr/mr"+mrPagesLeft+".jpg' data-lightbox='image55' </a>")
     }
 
     for(iconPagesLeft = 2; iconPagesLeft < 7; iconPagesLeft++){
@@ -106,19 +106,19 @@ $(function() {
     }
 
     for(colPagesLeft = 2; colPagesLeft < 45; colPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/col/col_Page_"+colPagesLeft+".jpg' data-lightbox='image77' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/col/col_Page_"+colPagesLeft+".jpg' data-lightbox='image44' </a>")
     }
 
       for(sponPagesLeft = 2; sponPagesLeft < 6; sponPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/spon/spon"+sponPagesLeft+".png' data-lightbox='image44' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/spon/spon"+sponPagesLeft+".png' data-lightbox='image33' </a>")
     }
 
       for(logoPagesLeft = 2; logoPagesLeft < 3; logoPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/el/el_redesign_"+logoPagesLeft+".png' data-lightbox='image1010' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/el/el_redesign_"+logoPagesLeft+".png' data-lightbox='image99' </a>")
     }
 
       for(paPagesLeft = 2; paPagesLeft < 4; paPagesLeft++){
-        $(".additionalPages").append("<a href='images/portfolio/pa/pa_"+paPagesLeft+".png' data-lightbox='image1111' </a>")
+        $(".additionalPages").append("<a href='images/portfolio/pa/pa_"+paPagesLeft+".png' data-lightbox='image1010' </a>")
     }
 
      for(bbPagesLeft = 2; bbPagesLeft < 5; bbPagesLeft++){
